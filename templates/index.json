@@ -229,10 +229,6 @@
     "video_htHmzd": {
       "type": "video",
       "blocks": {
-        "play_zpXEGi": {
-          "type": "play",
-          "settings": {}
-        },
         "heading_tdaTk8": {
           "type": "heading",
           "settings": {
@@ -242,7 +238,6 @@
         }
       },
       "block_order": [
-        "play_zpXEGi",
         "heading_tdaTk8"
       ],
       "name": "Video",
@@ -251,11 +246,70 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",
-        "video": "shopify://files/videos/Copie de Minimalist Before After Salon & Makeup Instagram Post.mp4",
+        "video": "shopify://files/videos/Copie de Minimalist Before After Salon & Makeup Instagram Post (Présentation) (1).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "multi_column_cHTnjf": {
+      "type": "multi-column",
+      "blocks": {
+        "item_68jAWe": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LtefNW": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LJ3XBx": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_68jAWe",
+        "item_LtefNW",
+        "item_LJ3XBx"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Nos clients en parlent le mieux",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
@@ -266,6 +320,7 @@
     "rich_text_fTL8C8",
     "image_with_text_overlay_8rYLJk",
     "rich_text_8LTpkF",
-    "video_htHmzd"
+    "video_htHmzd",
+    "multi_column_cHTnjf"
   ]
 }
