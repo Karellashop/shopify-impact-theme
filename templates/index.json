@@ -276,7 +276,7 @@
             "column_size": "3",
             "title": "Sofiane M.",
             "heading_tag": "h4",
-            "content": "<p>Ce que j’aime, c’est que ça m’aide à me défouler quand j’ai eu une journée relou. Je le prends, je serre, je force, et ça me vide la tête. <em>Un bon outil pour relâcher la pression en mode utile.</em></p>",
+            "content": "<p>J’ai rien dit à ma meuf, j’ai juste bossé avec Brazzary. Un soir, elle me sort : <em>“Attends... t’as toujours eu ces bras là ?” </em>Là j’ai su que c’était validé.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -289,7 +289,7 @@
             "column_size": "3",
             "title": "Hugo F.",
             "heading_tag": "h4",
-            "content": "<p><br/>Ce que j’ai kiffé avec Brazzary, c’est la simplicité. Pas besoin d’avoir un abonnement à la salle ou du matos de fou, tu le prends, tu bosses, t’as des résultats. <em>Facile, efficace, zéro excuses.</em></p>",
+            "content": "<p>Ce que j’aime, c’est que ça m’aide à me défouler quand j’ai eu une journée relou. Je le prends, je serre, je force, et ça me vide la tête. <em>Un bon outil pour relâcher la pression en mode utile..</em></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -302,20 +302,7 @@
             "column_size": "3",
             "title": "Julien M.",
             "heading_tag": "h4",
-            "content": "<p>J’ai commencé tranquille, 5 minutes par jour. Et en vrai, même avec ça, t’as des sensations de ouf. <em>C’est pas le temps que tu y passes, c’est la manière dont ça bosse.</em></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_z4BqiT": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Copie_de_Minimalist_Before_After_Salon_Makeup_Instagram_Post_1400_x_1400_px_12.jpg",
-            "column_size": "3",
-            "title": "Marc E.",
-            "heading_tag": "h4",
-            "content": "<p>Je bosse toute la journée sur un ordi, et j’avais souvent des tensions dans les avant-bras.<em>C’est devenu mon petit rituel anti-stress en plus du renfo.</em></p>",
+            "content": "<p>Ce que j’ai kiffé avec Brazzary, c’est la simplicité. Pas besoin d’avoir un abonnement à la salle ou du matos de fou, tu le prends, tu bosses, t’as des résultats. Facile, efficace, zéro excuses</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -333,6 +320,19 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "item_z4BqiT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_Minimalist_Before_After_Salon_Makeup_Instagram_Post_1400_x_1400_px_12.jpg",
+            "column_size": "3",
+            "title": "Marc E.",
+            "heading_tag": "h4",
+            "content": "<p>Je bosse toute la journée sur un ordi, et j’avais souvent des tensions dans les avant-bras.<em>C’est devenu mon petit rituel anti-stress en plus du renfo.</em></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
@@ -340,8 +340,8 @@
         "item_b6wKCk",
         "item_LtefNW",
         "item_p4qr37",
-        "item_z4BqiT",
-        "item_68jAWe"
+        "item_68jAWe",
+        "item_z4BqiT"
       ],
       "name": "Multi-column",
       "settings": {
