@@ -256,19 +256,6 @@
     "multi_column_cHTnjf": {
       "type": "multi-column",
       "blocks": {
-        "item_68jAWe": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1FD8F39B-8979-4B4F-B927-8FE2522701A9.png",
-            "column_size": "3",
-            "title": "Mehdi Z.",
-            "heading_tag": "h4",
-            "content": "<p><br/>Ce que j’ai aimé, c’est la régularité que ça m’a apporté.. Je m’entraîne plus souvent sans me forcer, juste parce que j’ai toujours envie de sentir mes bras bosser.<br/><em>Ça me motive sans prise de tête..</em></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_FFGrpK": {
           "type": "item",
           "settings": {
@@ -277,6 +264,19 @@
             "title": "Mathis B.",
             "heading_tag": "h4",
             "content": "<p><br/>Franchement, je sens la différence quand je serre une barre ou un haltère.<br/>J’ai clairement gagné en force dans la prise, et ça change tout sur mes tractions.<br/><em>Un petit outil qui débloque beaucoup.</em><br/><br/><br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_b6wKCk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_Minimalist_Before_After_Salon_Makeup_Instagram_Post_1400_x_1400_px_9.jpg",
+            "column_size": "3",
+            "title": "Sofiane M.",
+            "heading_tag": "h4",
+            "content": "<p>Ce que j’aime, c’est que ça m’aide à me défouler quand j’ai eu une journée relou.<br/>Je le prends, je serre, je force, et ça me vide la tête. <em>Un bon outil pour relâcher la pression en mode utile.</em></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -308,6 +308,19 @@
             "link_style": "link"
           }
         },
+        "item_68jAWe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1FD8F39B-8979-4B4F-B927-8FE2522701A9.png",
+            "column_size": "3",
+            "title": "Mehdi Z.",
+            "heading_tag": "h4",
+            "content": "<p><br/>Ce que j’ai aimé, c’est la régularité que ça m’a apporté.. Je m’entraîne plus souvent sans me forcer, juste parce que j’ai toujours envie de sentir mes bras bosser.<br/><em>Ça me motive sans prise de tête..</em></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_z4BqiT": {
           "type": "item",
           "settings": {
@@ -320,28 +333,15 @@
             "link_text": "",
             "link_style": "link"
           }
-        },
-        "item_b6wKCk": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Copie_de_Minimalist_Before_After_Salon_Makeup_Instagram_Post_1400_x_1400_px_9.jpg",
-            "column_size": "3",
-            "title": "Sofiane M.",
-            "heading_tag": "h4",
-            "content": "<p>Ce que j’aime, c’est que ça m’aide à me défouler quand j’ai eu une journée relou.<br/>Je le prends, je serre, je force, et ça me vide la tête. <em>Un bon outil pour relâcher la pression en mode utile.</em></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
         }
       },
       "block_order": [
-        "item_68jAWe",
         "item_FFGrpK",
+        "item_b6wKCk",
         "item_LtefNW",
         "item_p4qr37",
-        "item_z4BqiT",
-        "item_b6wKCk"
+        "item_68jAWe",
+        "item_z4BqiT"
       ],
       "name": "Multi-column",
       "settings": {
