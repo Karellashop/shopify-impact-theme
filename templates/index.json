@@ -259,24 +259,11 @@
         "item_68jAWe": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_Minimalist_Before_After_Salon_Makeup_Instagram_Post_1400_x_1400_px_3.jpg",
+            "image": "shopify://shop_images/1FD8F39B-8979-4B4F-B927-8FE2522701A9.png",
             "column_size": "3",
             "title": "Julien M.",
             "heading_tag": "h4",
             "content": "<p>Mes biceps et mes avant-bras ont pris en volume, et ma force de prise s’est nettement améliorée.<br/>L’outil est simple à utiliser, super efficace, et les résultats sont bien là.<br/><em>Je recommande sans hésiter.</em></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_LtefNW": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Copie_de_Minimalist_Before_After_Salon_Makeup_Instagram_Post_1400_x_1400_px_7.jpg",
-            "column_size": "3",
-            "title": "Hugo F.",
-            "heading_tag": "h4",
-            "content": "<p>Mes bras sont plus dessinés, plus durs, et mes perfs à la salle ont monté.<br/>C’est simple, mais super bien pensé.<br/><em>Un indispensable maintenant.</em></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -289,7 +276,20 @@
             "column_size": "3",
             "title": "Mathis B.",
             "heading_tag": "h4",
-            "content": "<p>Franchement, au bout de 3 semaines, j’ai vu mes bras se dessiner et ma poigne devenir bien plus solide.<br/>Le plus drôle ? Ma copine passe son temps à toucher mes bras maintenant 😅<br/><br/><br/></p>",
+            "content": "<p><br/>J’ai testé Brazzary un peu par curiosité, sans trop m’attendre à grand-chose.<br/>Et assez vite, j’ai vu mes bras se dessiner et ma poigne devenir bien plus solide.<br/>Le plus drôle ? Ma copine passe son temps à me toucher les bras maintenant 😅<br/><br/><br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LtefNW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_Minimalist_Before_After_Salon_Makeup_Instagram_Post_1400_x_1400_px_7.jpg",
+            "column_size": "3",
+            "title": "Hugo F.",
+            "heading_tag": "h4",
+            "content": "<p><br/>J’étais curieux mais un peu méfiant… Finalement, Brazzary a dépassé mes attentes.<br/>Mes bras sont plus dessinés, plus durs, et mes perfs à la salle ont monté.<br/>C’est simple, mais super bien pensé.<br/><em>Un indispensable maintenant.</em></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -337,8 +337,8 @@
       },
       "block_order": [
         "item_68jAWe",
-        "item_LtefNW",
         "item_FFGrpK",
+        "item_LtefNW",
         "item_p4qr37",
         "item_z4BqiT",
         "item_b6wKCk"
