@@ -429,7 +429,7 @@
         "image_wx3Wtp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_BRAZZARY_1300_x_1500_px_500_x_120_px_2.png",
+            "image": "shopify://shop_images/Copie_de_BRAZZARY_1300_x_1500_px_500_x_120_px_7.png",
             "alignment": "start",
             "max_width": 500
           }
@@ -501,31 +501,23 @@
           "type": "tab",
           "settings": {
             "title": "Caractéristiques",
-            "content": "<p>• Muscle les bras, poignets et avant-bras  <br/>• Résultats visibles en 30 jours – 10 min/jour  <br/>• Idéal pour la rééducation ou la remise en forme  <br/>• Format compact : 7,5 cm – tient dans une poche  <br/>• Utilisable à la maison, au bureau ou en voyage  <br/>• Silicone anti-dérapant + plastique ultra-résistant</p>",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>",
             "page": ""
           }
         },
         "tab_y9pwmz": {
           "type": "tab",
           "settings": {
-            "title": "Essayez-le 15 jours gratuitement",
-            "content": "<p>Essayer le Brazzary ArmX sans risque <strong>pendant 15 jours. </strong>Si vous n’êtes pas complètement satisfait de votre Brazzary ArmX vous avez la possibilité de le retourner et <strong>vous recevrez un remboursement intégral.</strong></p>",
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
             "page": ""
           }
         },
         "tab_AiQpMh": {
           "type": "tab",
           "settings": {
-            "title": "Livraison gratuite à domicile",
-            "content": "<p>La livraison à domicile est gratuite.En fonction du volume de commandes à traiter, le délai de livraison est estimé entre 5 et 8 jours ouvrés.</p>",
-            "page": ""
-          }
-        },
-        "tab_nJQNzA": {
-          "type": "tab",
-          "settings": {
-            "title": "Service client 7J/7",
-            "content": "<p>Notre équipe est à votre disposition pour répondre à vos questions, 7 jours sur 7.</p><p><br/>Vous pouvez nous contacter par email ou téléphone aux horaires suivants : Lundi au Vendredi : de 9h à 12h et de 14h à 18h<br/>Samedi et Dimanche : de 10h à 12h<br/>N’hésitez pas à nous joindre.</p>",
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
             "page": ""
           }
         }
@@ -533,8 +525,7 @@
       "block_order": [
         "tab_JAMXgL",
         "tab_y9pwmz",
-        "tab_AiQpMh",
-        "tab_nJQNzA"
+        "tab_AiQpMh"
       ],
       "name": "Tabs",
       "settings": {
@@ -549,104 +540,6 @@
         "heading_color": "",
         "heading_gradient": ""
       }
-    },
-    "faq_TmGp6F": {
-      "type": "faq",
-      "blocks": {
-        "item_EKqThz": {
-          "type": "item",
-          "settings": {
-            "title": "1. Qui peut utiliser le Brazzary ArmX ?",
-            "content": "<p>Ce produit est parfait pour toute personne souhaitant renforcer la poigne, les avant-bras, les biceps ou améliorer l’endurance musculaire. Il convient aussi bien aux sportifs, aux pratiquants de musculation, qu’aux débutants ou personnes en rééducation.</p>"
-          }
-        },
-        "item_fF4aJz": {
-          "type": "item",
-          "settings": {
-            "title": "2. À quelle fréquence dois-je l’utiliser ?",
-            "content": "<p>Nous recommandons une utilisation de <strong>10 à 15 minutes par jour</strong>, <strong>3 à 5 fois par semaine</strong>. Restez régulier pendant <strong>2 à 3 semaines</strong> pour observer des résultats visibles.</p>"
-          }
-        },
-        "item_t6HtWj": {
-          "type": "item",
-          "settings": {
-            "title": "3. Qu’est-ce qui le rend différent des autres outils de musculation ?",
-            "content": "<p>Contrairement aux produits classiques, <strong>Brazzary offre une résistance constante</strong> qui cible précisément les avant-bras, poignets et biceps. Résultats plus rapides, entraînement silencieux et utilisable partout.</p>"
-          }
-        },
-        "item_qaEbE3": {
-          "type": "item",
-          "settings": {
-            "title": "4. Est-ce que Brazzary aide à développer les bras ?",
-            "content": "<p>Oui ! Brazzary est conçu pour <strong>stimuler la croissance musculaire</strong> et améliorer la vascularisation. Avec une utilisation régulière, vous verrez vos bras devenir plus volumineux et dessinés.</p>"
-          }
-        },
-        "item_iY6EEx": {
-          "type": "item",
-          "settings": {
-            "title": "5. Est-il facile à transporter ?",
-            "content": "<p>Absolument. Brazzary ArmX™ est <strong>léger et compact (7,5 cm)</strong>, il tient dans un sac ou une poche. Parfait pour s’entraîner à la maison, au bureau ou même en voyage.</p>"
-          }
-        },
-        "item_wqxTmG": {
-          "type": "item",
-          "settings": {
-            "title": "6. Quelle est sa durabilité ?",
-            "content": "<p>Brazzary est fabriqué à partir de <strong>matériaux résistants à l’usure</strong>. Il supporte les entraînements intensifs répétés. Que vous l’utilisiez quotidiennement ou occasionnellement, il est <strong>fait pour durer plusieurs années</strong>.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_EKqThz",
-        "item_fF4aJz",
-        "item_t6HtWj",
-        "item_qaEbE3",
-        "item_iY6EEx",
-        "item_wqxTmG"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
-    "contact_KdjcQt": {
-      "type": "contact",
-      "name": "Contact form",
-      "settings": {
-        "full_width": true,
-        "subheading": "Notre service clientèle est disponible 7 jours sur 7. Temps de réponse moyen : 24h",
-        "title": "Une question ?",
-        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais. </p>",
-        "text_position": "center",
-        "contact_form_size": "large",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "",
-        "contact_text_color": "",
-        "button_background": "#f0c417",
-        "button_text_color": "#000000"
-      }
     }
   },
   "order": [
@@ -659,8 +552,6 @@
     "video_htHmzd",
     "multi_column_cHTnjf",
     "featured_product_yCqJ6B",
-    "tabs_yX9rGC",
-    "faq_TmGp6F",
-    "contact_KdjcQt"
+    "tabs_yX9rGC"
   ]
 }
