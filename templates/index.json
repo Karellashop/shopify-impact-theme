@@ -563,8 +563,8 @@
         "item_LadwPT": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "2. À quelle fréquence dois-je l'utiliser ?",
+            "content": "<p>Nous recommandons une utilisation de 10 à 15 minutes par jour, 3 à 5 fois par semaine. Restez régulier pendant 2 à 3 semaines pour observer des résultats visibles</p>"
           }
         },
         "item_NLDUBf": {
