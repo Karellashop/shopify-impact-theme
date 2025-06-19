@@ -573,12 +573,20 @@
             "title": "3. Qu'est ce qui le rend différent des autres outils de musculation ?",
             "content": "<p>Contrairement aux produits classiques, Brazzary offre une résistance constante qui cible précisément les avant-bras, poignets et biceps.<br/>Résultats plus rapides, entraînement silencieux et utilisable partout</p>"
           }
+        },
+        "item_wwHXUc": {
+          "type": "item",
+          "settings": {
+            "title": "4. Est-ce que Brazzary aide à développer les bras ?",
+            "content": "<p>Oui ! Brazzary est conçu pour stimuler la croissance musculaire et améliorer la vascularisation.Avec une utilisation régulière, vous verrez vos bras devenir plus volumineux et dessinés.</p>"
+          }
         }
       },
       "block_order": [
         "item_9a4aya",
         "item_LadwPT",
-        "item_NLDUBf"
+        "item_NLDUBf",
+        "item_wwHXUc"
       ],
       "name": "FAQ",
       "settings": {
