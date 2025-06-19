@@ -556,7 +556,7 @@
         "item_EKqThz": {
           "type": "item",
           "settings": {
-            "title": "1. Qui peut utiliser le Brazzary ArmX™ ?",
+            "title": "1. Qui peut utiliser le Brazzary ArmX ?",
             "content": "<p>Ce produit est parfait pour toute personne souhaitant renforcer la poigne, les avant-bras, les biceps ou améliorer l’endurance musculaire. Il convient aussi bien aux sportifs, aux pratiquants de musculation, qu’aux débutants ou personnes en rééducation.</p>"
           }
         },
@@ -626,6 +626,27 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "contact_KdjcQt": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Notre service clientèle est disponible 7 jours sur 7. Temps de réponse moyen : 24h",
+        "title": "Une question ?",
+        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais. </p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#f0c417",
+        "button_text_color": "#000000"
+      }
     }
   },
   "order": [
@@ -639,6 +660,7 @@
     "multi_column_cHTnjf",
     "featured_product_yCqJ6B",
     "tabs_yX9rGC",
-    "faq_TmGp6F"
+    "faq_TmGp6F",
+    "contact_KdjcQt"
   ]
 }
