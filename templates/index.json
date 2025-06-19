@@ -571,14 +571,14 @@
           "type": "item",
           "settings": {
             "title": "3. Qu’est-ce qui le rend différent des autres outils de musculation ?",
-            "content": "<p>Contrairement aux produits classiques, <strong>Brazzary offre une résistance constante</strong> qui cible précisément les avant-bras, poignets et biceps.</p><p>Résultats plus rapides, entraînement silencieux et utilisable partout.</p>"
+            "content": "<p>Contrairement aux produits classiques, <strong>Brazzary offre une résistance constante</strong> qui cible précisément les avant-bras, poignets et biceps. Résultats plus rapides, entraînement silencieux et utilisable partout.</p>"
           }
         },
         "item_qaEbE3": {
           "type": "item",
           "settings": {
             "title": "4. Est-ce que Brazzary aide à développer les bras ?",
-            "content": "<p>Oui ! Brazzary est conçu pour <strong>stimuler la croissance musculaire</strong> et améliorer la vascularisation.Avec une utilisation régulière, vous verrez vos bras devenir plus volumineux et dessinés.</p>"
+            "content": "<p>Oui ! Brazzary est conçu pour <strong>stimuler la croissance musculaire</strong> et améliorer la vascularisation. Avec une utilisation régulière, vous verrez vos bras devenir plus volumineux et dessinés.</p>"
           }
         },
         "item_iY6EEx": {
@@ -592,7 +592,7 @@
           "type": "item",
           "settings": {
             "title": "6. Quelle est sa durabilité ?",
-            "content": "<p>Brazzary est fabriqué à partir de <strong>matériaux résistants à l’usure</strong> (silicone + ABS). Il supporte les entraînements intensifs répétés. Que vous l’utilisiez quotidiennement ou occasionnellement, il est <strong>fait pour durer plusieurs années</strong>.</p>"
+            "content": "<p>Brazzary est fabriqué à partir de <strong>matériaux résistants à l’usure</strong>. Il supporte les entraînements intensifs répétés. Que vous l’utilisiez quotidiennement ou occasionnellement, il est <strong>fait pour durer plusieurs années</strong>.</p>"
           }
         }
       },
@@ -609,7 +609,7 @@
         "full_width": true,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
         "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
         "answer_time": "Average answer time: 24h",
