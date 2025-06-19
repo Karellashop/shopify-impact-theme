@@ -452,7 +452,7 @@
         "image_kH4336": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/livraison_-_paiement_-_rembourse.png",
+            "image": "shopify://shop_images/Copie_de_BRAZZARY_1300_x_1500_px_500_x_120_px_6.png",
             "alignment": "start",
             "max_width": 500
           }
@@ -493,6 +493,53 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "tabs_yX9rGC": {
+      "type": "tabs",
+      "blocks": {
+        "tab_JAMXgL": {
+          "type": "tab",
+          "settings": {
+            "title": "Caractéristiques",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>",
+            "page": ""
+          }
+        },
+        "tab_y9pwmz": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_AiQpMh": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_JAMXgL",
+        "tab_y9pwmz",
+        "tab_AiQpMh"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
@@ -504,6 +551,7 @@
     "rich_text_8LTpkF",
     "video_htHmzd",
     "multi_column_cHTnjf",
-    "featured_product_yCqJ6B"
+    "featured_product_yCqJ6B",
+    "tabs_yX9rGC"
   ]
 }
