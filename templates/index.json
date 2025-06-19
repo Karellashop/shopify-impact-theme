@@ -391,8 +391,8 @@
         "image_EYbFcQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_BRAZZARY_1300_x_1500_px_9.png",
-            "alignment": "start",
+            "image": "shopify://shop_images/1.png",
+            "alignment": "center",
             "max_width": 500
           }
         },
