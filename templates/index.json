@@ -437,10 +437,10 @@
         "buy_buttons_hEEQHC": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#ffd73b",
+            "atc_button_text_color": "#1a1a1a",
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
@@ -448,6 +448,14 @@
         "pickup_availability_Ebt4BT": {
           "type": "pickup_availability",
           "settings": {}
+        },
+        "image_kH4336": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_BRAZZARY_1300_x_1500_px_500_x_120_px_4.png",
+            "alignment": "start",
+            "max_width": 500
+          }
         }
       },
       "block_order": [
@@ -464,7 +472,8 @@
         "quantity_selector_TAH7NL",
         "image_wx3Wtp",
         "buy_buttons_hEEQHC",
-        "pickup_availability_Ebt4BT"
+        "pickup_availability_Ebt4BT",
+        "image_kH4336"
       ],
       "name": "Featured product",
       "settings": {
