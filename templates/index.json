@@ -426,6 +426,14 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "image_wx3Wtp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_BRAZZARY_1300_x_1500_px_500_x_120_px_2.png",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
         "buy_buttons_hEEQHC": {
           "type": "buy_buttons",
           "settings": {
@@ -454,6 +462,7 @@
         "description_CNPxe9",
         "variant_picker_bWwPi9",
         "quantity_selector_TAH7NL",
+        "image_wx3Wtp",
         "buy_buttons_hEEQHC",
         "pickup_availability_Ebt4BT"
       ],
