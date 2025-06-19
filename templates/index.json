@@ -587,6 +587,13 @@
             "title": "5. Est-il facile à transporter ?",
             "content": "<p>Absolument. Brazzary ArmX™ est léger et compact (7,5 cm), il tient dans un sac ou une poche. Parfait pour s’entraîner à la maison, au bureau ou même en voyage.</p>"
           }
+        },
+        "item_6yi9py": {
+          "type": "item",
+          "settings": {
+            "title": "6. Quelle est sa durabilité ?",
+            "content": "<p>Brazzary est fabriqué à partir de matériaux résistants à l’usure. Il supporte les entraînements intensifs répétés. Que vous l’utilisiez quotidiennement ou occasionnellement, il est fait pour durer plusieurs années.</p>"
+          }
         }
       },
       "block_order": [
@@ -594,7 +601,8 @@
         "item_LadwPT",
         "item_NLDUBf",
         "item_wwHXUc",
-        "item_ibxgMX"
+        "item_ibxgMX",
+        "item_6yi9py"
       ],
       "name": "FAQ",
       "settings": {
