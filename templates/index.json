@@ -580,13 +580,21 @@
             "title": "4. Est-ce que Brazzary aide à développer les bras ?",
             "content": "<p>Oui ! Brazzary est conçu pour stimuler la croissance musculaire et améliorer la vascularisation.Avec une utilisation régulière, vous verrez vos bras devenir plus volumineux et dessinés.</p>"
           }
+        },
+        "item_ibxgMX": {
+          "type": "item",
+          "settings": {
+            "title": "5. Est-il facile à transporter ?",
+            "content": "<p>Absolument. Brazzary ArmX™ est léger et compact (7,5 cm), il tient dans un sac ou une poche. Parfait pour s’entraîner à la maison, au bureau ou même en voyage.</p>"
+          }
         }
       },
       "block_order": [
         "item_9a4aya",
         "item_LadwPT",
         "item_NLDUBf",
-        "item_wwHXUc"
+        "item_wwHXUc",
+        "item_ibxgMX"
       ],
       "name": "FAQ",
       "settings": {
