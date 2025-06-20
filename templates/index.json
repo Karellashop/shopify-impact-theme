@@ -276,7 +276,7 @@
             "column_size": "3",
             "title": "Sofiane M.",
             "heading_tag": "h4",
-            "content": "<p>3 semaines d’usage, résultats nets. Avant-bras plus denses, plus visibles.Un produit qui fait exactement ce qu’il promet. L’arme silencieuse de ceux qui se démarquent.</p>",
+            "content": "<p>« T’as toujours eu ces bras-là ? »Elle a rien vu venir… sauf les résultat. Merci Brazzary.<br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -626,6 +626,27 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "contact_9qmMCA": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Notre service clientèle est disponible 7 jours sur 7. Temps de réponse moyen : 24h",
+        "title": "Une question ?",
+        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais. </p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -639,6 +660,7 @@
     "multi_column_cHTnjf",
     "featured_product_yCqJ6B",
     "tabs_yX9rGC",
-    "faq_HV6a8N"
+    "faq_HV6a8N",
+    "contact_9qmMCA"
   ]
 }
