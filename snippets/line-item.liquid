@@ -67,6 +67,15 @@ Supported variables
       </ul>
     {%- endunless -%}
 
+    {%- comment -%}
+    Affichage "Vous économisez"
+    {%- endcomment -%}
+    {%- if line_item.original_line_price > line_item.final_line_price -%}
+      <p class="text-sm text-success mt-1">
+        Vous économisez {{ line_item.original_line_price | minus: line_item.final_line_price | money }}
+      </p>
+    {%- endif -%}
+
     <div class="text-sm text-subdued sm:hidden">
       {%- if line_item.url_to_remove -%}
         <line-item-quantity class="h-stack justify-center gap-3">
