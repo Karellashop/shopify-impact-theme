@@ -134,11 +134,10 @@
                   {% assign economies_text = 'Vous économisez' | t %}
 {{ economies_text | upcase }}
 
-
                   {%- render 'input', name: 'note', multiline: 3, label: order_note, value: cart.note -%}
 
                   <div class="justify-self-start">
-                    {%- render 'button', type: 'button', content: ÉCONOMIES, size: 'lg', is: 'close-button', secondary: true -%}
+                    {%- render 'button', type: 'button', content: 'ÉCONOMIES', size: 'lg', is: 'close-button', secondary: true -%}
                   </div>
                 </cart-note>
               </div>
