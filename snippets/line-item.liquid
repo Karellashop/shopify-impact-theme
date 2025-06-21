@@ -36,7 +36,18 @@ Supported variables
         <p class="bold">{{ line_item.product.title | default: line_item.title }}</p>
       {%- endif -%}
 
-      {%- render 'price-list', line_item: line_item -%}
+      {%- assign prix_original_total = line_item.original_line_price %}
+      {%- assign prix_final_total = line_item.final_line_price %}
+      {%- assign difference = prix_original_total | minus: prix_final_total %}
+
+      {%- if prix_original_total > prix_final_total -%}
+        <div class="price-list">
+          <span class="price price--sale">{{ prix_final_total | money }}</span>
+          <span class="price price--compare line-through text-subdued">{{ prix_original_total | money }}</span>
+        </div>
+      {%- else -%}
+        <span class="price">{{ prix_final_total | money }}</span>
+      {%- endif -%}
     </div>
 
     {%- unless line_item.product.has_only_default_variant or line_item.gift_card -%}
@@ -67,26 +78,23 @@ Supported variables
       </ul>
     {%- endunless -%}
 
-    {%- comment -%}
-    Affichage "Vous économisez"
-    {%- endcomment -%}
-    {%- if line_item.original_line_price > line_item.final_line_price -%}
+    {%- if difference > 0 -%}
       <p class="text-sm text-success mt-1">
-        Vous économisez {{ line_item.original_line_price | minus: line_item.final_line_price | money }}
+        Vous économisez {{ difference | money }}
       </p>
     {%- endif -%}
 
     <div class="text-sm text-subdued sm:hidden">
       {%- if line_item.url_to_remove -%}
         <line-item-quantity class="h-stack justify-center gap-3">
-          <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
+          <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="Modifier la quantité" value="{{ line_item.quantity }}">
 
           <span class="text-xs">
-            <a href="{{ line_item.url_to_remove }}" class="link">{{ 'cart.order.remove' | t }}</a>
+            <a href="{{ line_item.url_to_remove }}" class="link">Supprimer</a>
           </span>
         </line-item-quantity>
       {%- else -%}
-        {{- 'customer.order.quantity' | t }}: {{ line_item.quantity -}}
+        Quantité : {{ line_item.quantity }}
       {%- endif -%}
     </div>
 
@@ -104,10 +112,10 @@ Supported variables
   {%- if show_desktop_quantity -%}
     <div class="line-item__actions text-subdued hidden sm:block">
       <line-item-quantity class="v-stack gap-2">
-        <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
+        <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="Modifier la quantité" value="{{ line_item.quantity }}">
 
         <span class="text-xs text-center">
-          <a href="{{ line_item.url_to_remove }}" class="link">{{ 'cart.order.remove' | t }}</a>
+          <a href="{{ line_item.url_to_remove }}" class="link">Supprimer</a>
         </span>
       </line-item-quantity>
     </div>
