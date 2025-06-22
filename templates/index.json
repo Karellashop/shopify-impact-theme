@@ -243,7 +243,7 @@
       "name": "Video",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
+        "allow_transparent_header": true,
         "autoplay": true,
         "video_size": "auto",
         "video": "shopify://files/videos/Copie de Minimalist Before After Salon & Makeup Instagram Post (Présentation) (2).mp4",
