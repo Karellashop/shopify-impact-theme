@@ -86,15 +86,7 @@
 
     <div class="v-stack gap-4 sm:gap-6" slot="footer">
       <div class="v-stack gap-1">
-        {% for discount_application in cart.cart_level_discount_applications %}
-          <div class="h-stack gap-4 justify-between">
-            <div class="badge">
-              {%- render 'icon' with 'discount' -%} {{- discount_application.title -}}
-            </div>
-
-
-          </div>
-        {% endfor %}
+        <!-- Ligne de remise supprimée volontairement -->
 
         <div class="h-stack gap-4 justify-between">
           <span class="h5">{{ 'cart.general.total' | t }}</span>
@@ -113,33 +105,7 @@
           {%- endif -%}
         {%- endif -%}
 
-        {%- if section.settings.show_cart_note -%}
-          <button type="button" class="justify-self-start" aria-controls="cart-drawer-note">
-            <span class="link text-sm text-subdued">
-              {%- if cart.note == blank -%}
-                {{- 'cart.general.add_order_note' | t -}}
-              {%- else -%}
-                {{- 'cart.general.edit_order_note' | t -}}
-              {%- endif -%}
-            </span>
-          </button>
-
-          <cart-note-dialog id="cart-drawer-note" class="cart-drawer__note">
-            <div class="cart-drawer__note-inner">
-              <div class="v-stack gap-4 sm:gap-6">
-                <p class="h5">{{ 'cart.general.order_note' | t }}</p>
-
-                <cart-note class="v-stack gap-4">
-                  {%- assign order_note = 'cart.general.order_note' | t -%}
-                  {% assign economies_text = 'Vous économisez' | t %}
-
-                  {%- render 'input', name: 'note', multiline: 3, label: order_note, value: cart.note -%}
-
-                </cart-note>
-              </div>
-            </div>
-          </cart-note-dialog>
-        {%- endif -%}
+        <!-- Suppression du champ de note et code promo -->
       </div>
 
       <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
