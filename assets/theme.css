@@ -9878,8 +9878,3 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
-
-/* Masquer le texte "Savings" rouge dans le panier */
-.cart-drawer__line-items .price__badge {
-  display: none !important;
-}
