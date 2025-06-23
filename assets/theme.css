@@ -9879,14 +9879,20 @@ split-lines {
   overflow: hidden;
 }
 
-/* Cacher le texte "Savings" et les réductions dans le panier */
-.cart-discount__item,
+/* Masquer les savings dans le panier */
+.cart__row--discount,
 .cart__discount,
+.cart__footer .discount-line,
+.cart__row--savings,
+.cart-discount,
+.cart-discount__item,
 [data-discount-amount],
 [data-cart-discount],
-.cart__row--discount,
-.cart__row--savings,
 .cart-drawer__discount,
-.cart__footer .discount-line {
+.cart-drawer__footer .badge,
+.cart-drawer__footer .h5 + .text-subdued,
+.discount-application,
+.cart__code,
+[data-cart-discount-description] {
   display: none !important;
 }
