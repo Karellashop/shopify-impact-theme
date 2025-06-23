@@ -9878,3 +9878,15 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+
+/* Cacher le texte "Savings" et les réductions dans le panier */
+.cart-discount__item,
+.cart__discount,
+[data-discount-amount],
+[data-cart-discount],
+.cart__row--discount,
+.cart__row--savings,
+.cart-drawer__discount,
+.cart__footer .discount-line {
+  display: none !important;
+}
