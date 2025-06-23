@@ -426,12 +426,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "kaching_bundles_app_block_iacWgq": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "brazzary-armx"
-          }
-        },
         "image_wx3Wtp": {
           "type": "image",
           "settings": {
@@ -476,7 +470,6 @@
         "description_CNPxe9",
         "variant_picker_bWwPi9",
         "quantity_selector_TAH7NL",
-        "kaching_bundles_app_block_iacWgq",
         "image_wx3Wtp",
         "buy_buttons_hEEQHC",
         "pickup_availability_Ebt4BT",
