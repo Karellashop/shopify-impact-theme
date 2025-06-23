@@ -378,7 +378,6 @@
         },
         "price_eTwED8": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
