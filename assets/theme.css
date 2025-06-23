@@ -9879,20 +9879,7 @@ split-lines {
   overflow: hidden;
 }
 
-/* Masquer les savings dans le panier */
-.cart__row--discount,
-.cart__discount,
-.cart__footer .discount-line,
-.cart__row--savings,
-.cart-discount,
-.cart-discount__item,
-[data-discount-amount],
-[data-cart-discount],
-.cart-drawer__discount,
-.cart-drawer__footer .badge,
-.cart-drawer__footer .h5 + .text-subdued,
-.discount-application,
-.cart__code,
-[data-cart-discount-description] {
+/* Masquer le texte "Savings" rouge dans le panier */
+.cart-drawer__line-items .price__badge {
   display: none !important;
 }
