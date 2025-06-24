@@ -84,27 +84,6 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
-    <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const observer = new MutationObserver(() => {
-      document.querySelectorAll("*").forEach((el) => {
-        if (el.innerText === "Reviews") {
-          el.innerText = "Avis";
-        }
-        if (el.innerText === "Write a review") {
-          el.innerText = "Rédiger un avis";
-        }
-        if (el.innerText === "Verified") {
-          el.innerText = "Vérifié";
-        }
-      });
-    });
-
-    observer.observe(document.body, {
-      childList: true,
-      subtree: true,
-    });
-  });
-</script>
+    
   </body>
 </html>
