@@ -99,6 +99,19 @@
         "overlay_opacity": 0
       }
     },
+    "custom_liquid_i4hC7D": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .trusted-by-slider {\n    overflow: hidden;\n    width: 100%;\n    padding: 20px 0;\n    background-color: white;\n  }\n\n  .trusted-by-track {\n    display: flex;\n    width: max-content;\n    animation: scrollLeft 30s linear infinite;\n    align-items: center;\n  }\n\n  .trusted-by-track img {\n    height: 40px;\n    margin: 0 40px;\n    filter: grayscale(100%);\n    opacity: 0.8;\n    transition: transform 0.3s ease;\n  }\n\n  .trusted-by-track img:hover {\n    transform: scale(1.1);\n    opacity: 1;\n    filter: grayscale(0%);\n  }\n\n  @keyframes scrollLeft {\n    0% {\n      transform: translateX(100%);\n    }\n    100% {\n      transform: translateX(-100%);\n    }\n  }\n</style>\n\n<div class=\"trusted-by-slider\">\n  <div class=\"trusted-by-track\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/en/f/fc/Muscle_%26_Fitness_Logo.png\" alt=\"Muscle Fitness\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Men%27s_Health_logo.svg/512px-Men%27s_Health_logo.svg.png\" alt=\"Men's Health\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/commons/6/63/Basic-Fit_logo.svg\" alt=\"Basic Fit\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/commons/9/9f/GQ_logo.svg\" alt=\"GQ\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/commons/5/5f/NBC_logo.svg\" alt=\"NBC\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/commons/5/5e/CBS_logo.svg\" alt=\"CBS\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/commons/5/5d/Forbes_logo.svg\" alt=\"Forbes\">\n    <!-- tu peux dupliquer autant de logos que tu veux -->\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "logo_list_Y8gYDr": {
       "type": "logo-list",
       "blocks": {
@@ -141,6 +154,7 @@
         "logo_YprRGH",
         "logo_jYGeYB"
       ],
+      "custom_css": [],
       "name": "Logo list",
       "settings": {
         "full_width": true,
@@ -733,6 +747,7 @@
   "order": [
     "slideshow",
     "image_with_text_overlay_QhEhwn",
+    "custom_liquid_i4hC7D",
     "logo_list_Y8gYDr",
     "rich_text_fTL8C8",
     "image_with_text_overlay_8rYLJk",

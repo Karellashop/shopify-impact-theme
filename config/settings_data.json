@@ -85,11 +85,6 @@
         "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
         "disabled": false,
         "settings": {}
-      },
-      "7430214966741109568": {
-        "type": "shopify://apps/fab-marquee-scrolling-text/blocks/app-embed/c13fc727-3c6a-4e50-b847-b6af5ec54bbe",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
@@ -190,5 +185,11 @@
       "product_color_display": "swatch",
       "product_info_alignment": "center"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".logo-list__list {display: flex; animation: defilement 30s linear infinite; width: max-content; gap: 40px;}",
+      "@keyframes defilement {0% {transform: translateX(0); } 100% {transform: translateX(-50%); }}"
+    ]
   }
 }
