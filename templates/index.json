@@ -106,7 +106,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .trusted-by-slider {\n    overflow: hidden;\n    width: 100%;\n    padding: 20px 0;\n    background-color: white;\n  }\n\n  .trusted-by-track {\n    display: flex;\n    width: max-content;\n    animation: scrollLeft 30s linear infinite;\n    align-items: center;\n  }\n\n  .trusted-by-track img {\n    height: 40px;\n    margin: 0 40px;\n    filter: grayscale(100%);\n    opacity: 0.8;\n    transition: transform 0.3s ease;\n  }\n\n  .trusted-by-track img:hover {\n    transform: scale(1.1);\n    opacity: 1;\n    filter: grayscale(0%);\n  }\n\n  @keyframes scrollLeft {\n    0% {\n      transform: translateX(100%);\n    }\n    100% {\n      transform: translateX(-100%);\n    }\n  }\n</style>\n\n<div class=\"trusted-by-slider\">\n  <div class=\"trusted-by-track\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/en/f/fc/Muscle_%26_Fitness_Logo.png\" alt=\"Muscle Fitness\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Men%27s_Health_logo.svg/512px-Men%27s_Health_logo.svg.png\" alt=\"Men's Health\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/commons/6/63/Basic-Fit_logo.svg\" alt=\"Basic Fit\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/commons/9/9f/GQ_logo.svg\" alt=\"GQ\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/commons/5/5f/NBC_logo.svg\" alt=\"NBC\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/commons/5/5e/CBS_logo.svg\" alt=\"CBS\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/commons/5/5d/Forbes_logo.svg\" alt=\"Forbes\">\n    <!-- tu peux dupliquer autant de logos que tu veux -->\n  </div>\n</div>",
+        "liquid": "<style>\n@keyframes defilement {\n  0% { transform: translateX(0); }\n  100% { transform: translateX(-50%); }\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -123,7 +123,23 @@
             "link": ""
           }
         },
+        "logo_RwifUj": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo.f037c7b.svg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
         "logo_Cpkk4W": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Copie_de_Copie_de_BRAZZARY_Photo_de_profil_Facebook_3.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_AaxfCM": {
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Copie_de_Copie_de_BRAZZARY_Photo_de_profil_Facebook_3.png",
@@ -139,7 +155,23 @@
             "link": ""
           }
         },
+        "logo_9jUXLm": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Copie_de_Copie_de_BRAZZARY_Photo_de_profil_Facebook_4.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
         "logo_jYGeYB": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Copie_de_Copie_de_BRAZZARY_Photo_de_profil_Facebook.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_yAUznP": {
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Copie_de_Copie_de_BRAZZARY_Photo_de_profil_Facebook.png",
@@ -150,11 +182,18 @@
       },
       "block_order": [
         "logo_JcVmn6",
+        "logo_RwifUj",
         "logo_Cpkk4W",
+        "logo_AaxfCM",
         "logo_YprRGH",
-        "logo_jYGeYB"
+        "logo_9jUXLm",
+        "logo_jYGeYB",
+        "logo_yAUznP"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "[data-section-type=\"logo-list\"] .logo-list__list {display: flex; gap: 40px; animation: defilement 30s linear infinite; width: max-content; overflow: hidden;}",
+        "[data-section-type=\"logo-list\"] .logo-list__item {flex: 0 0 auto;}"
+      ],
       "name": "Logo list",
       "settings": {
         "full_width": true,

@@ -187,9 +187,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      ".logo-list__list {display: flex; animation: defilement 30s linear infinite; width: max-content; gap: 40px;}",
-      "@keyframes defilement {0% {transform: translateX(0); } 100% {transform: translateX(-50%); }}"
-    ]
+    "custom_css": []
   }
 }
