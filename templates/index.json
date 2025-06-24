@@ -360,6 +360,12 @@
     "featured_product_yCqJ6B": {
       "type": "featured-product",
       "blocks": {
+        "liquid_PKTmBX": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .avis-clients {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-family: Arial, sans-serif;\n    font-size: 14px;\n    color: #333;\n    animation: fadeInAvis 1s ease-in-out forwards;\n    opacity: 0;\n    margin-bottom: 10px;\n  }\n\n  .avis-clients .etoiles {\n    color: #1e7d29; /* vert foncé */\n    font-size: 16px;\n    animation: pulseStars 2s infinite;\n  }\n\n  @keyframes fadeInAvis {\n    from { opacity: 0; transform: translateY(8px); }\n    to { opacity: 1; transform: translateY(0); }\n  }\n\n  @keyframes pulseStars {\n    0%, 100% {\n      transform: scale(1);\n    }\n    50% {\n      transform: scale(1.05);\n    }\n  }\n</style>\n\n<div class=\"avis-clients\">\n  <div class=\"etoiles\">★★★★★</div>\n  <div>Noté 4,8/5 par plus de 1500 clients</div>\n</div>"
+          }
+        },
         "title_3xi67W": {
           "type": "title",
           "settings": {
@@ -467,6 +473,7 @@
         }
       },
       "block_order": [
+        "liquid_PKTmBX",
         "title_3xi67W",
         "badges_QcRi7A",
         "price_eTwED8",
