@@ -728,19 +728,6 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
-    },
-    "custom_liquid_GXDgTr": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"fab_marquee_11726\"></div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -758,7 +745,6 @@
     "contact_9qmMCA",
     "1750512696c7b76d4f",
     "1750708000a9212a88",
-    "17507615174599ed84",
-    "custom_liquid_GXDgTr"
+    "17507615174599ed84"
   ]
 }
