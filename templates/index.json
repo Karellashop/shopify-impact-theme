@@ -138,6 +138,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_ERgiYh": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n  .brazzary-marquee-wrapper {\n    overflow: hidden;\n    position: relative;\n    padding: 20px 0;\n    background-color: transparent;\n  }\n\n  .brazzary-marquee-track {\n    display: flex;\n    animation: brazzary-scroll 20s linear infinite;\n    width: max-content;\n  }\n\n  .brazzary-marquee-track .brazzary-logos {\n    display: flex;\n    gap: 40px;\n    align-items: center;\n  }\n\n  .brazzary-logos img {\n    max-height: 60px;\n    width: auto;\n    object-fit: contain;\n  }\n\n  @keyframes brazzary-scroll {\n    0% {\n      transform: translateX(0);\n    }\n    100% {\n      transform: translateX(-50%);\n    }\n  }\n\n  @media screen and (max-width: 768px) {\n    .brazzary-marquee-track {\n      animation: brazzary-scroll-mobile 12s linear infinite;\n    }\n\n    .brazzary-marquee-track .brazzary-logos {\n      gap: 30px;\n    }\n\n    .brazzary-logos img {\n      max-height: 50px;\n    }\n\n    @keyframes brazzary-scroll-mobile {\n      0% {\n        transform: translateX(0);\n      }\n      100% {\n        transform: translateX(-50%);\n      }\n    }\n  }\n</style>\n\n<div class=\"brazzary-marquee-wrapper\">\n  <div class=\"brazzary-marquee-track\">\n    <div class=\"brazzary-logos\">\n      <!-- Logos (1ère série) -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0941/4986/9913/files/Design_sans_titre_1.png?v=1750775123\" alt=\"Basic Fit\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0941/4986/9913/files/Design_sans_titre_1_copie_2.png?v=1750775123\" alt=\"Men’s Health\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0941/4986/9913/files/Design_sans_titre_1_copie_3.png?v=1750775123\" alt=\"Coach\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0941/4986/9913/files/Design_sans_titre_1_copie.png?v=1750775123\" alt=\"Muscle & Fitness\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0941/4986/9913/files/Design_sans_titre_2.png?v=1750778003\" alt=\"L’Équipe\">\n    </div>\n    <div class=\"brazzary-logos\">\n      <!-- Logos (2e série pour boucle fluide) -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0941/4986/9913/files/Design_sans_titre_1.png?v=1750775123\" alt=\"Basic Fit\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0941/4986/9913/files/Design_sans_titre_1_copie_2.png?v=1750775123\" alt=\"Men’s Health\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0941/4986/9913/files/Design_sans_titre_1_copie_3.png?v=1750775123\" alt=\"Coach\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0941/4986/9913/files/Design_sans_titre_1_copie.png?v=1750775123\" alt=\"Muscle & Fitness\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0941/4986/9913/files/Design_sans_titre_2.png?v=1750778003\" alt=\"L’Équipe\">\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_fTL8C8": {
       "type": "rich-text",
       "blocks": {
@@ -721,6 +734,7 @@
     "video_htHmzd",
     "multi_column_cHTnjf",
     "featured_product_yCqJ6B",
+    "custom_liquid_ERgiYh",
     "tabs_yX9rGC",
     "faq_HV6a8N",
     "contact_9qmMCA",
