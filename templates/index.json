@@ -363,7 +363,7 @@
         "liquid_GMkwVL": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap;\">\n  <!-- Étoiles vert foncé réduites -->\n  <div style=\"font-size: 16px; color: #006400; letter-spacing: 2px;\">\n    ★★★★★\n  </div>\n\n  <!-- Texte compact -->\n  <div style=\"font-size: 14px; color: #333;\">\n    Noté <strong>4,8/5</strong> par plus de <strong>1500 clients</strong>\n  </div>\n</div>"
+            "liquid": "<div style=\"display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-start;\">\n  <!-- Étoiles vert foncé réduites -->\n  <div style=\"font-size: 16px; color: #006400; letter-spacing: 2px;\">\n    ★★★★★\n  </div>\n\n  <!-- Texte compact -->\n  <div style=\"font-size: 14px; color: #333;\">\n    Noté <strong>4,8/5</strong> par plus de <strong>1500 clients</strong>\n  </div>\n</div>"
           }
         },
         "title_3xi67W": {
