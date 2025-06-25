@@ -372,7 +372,7 @@
         "liquid_QNm8PT": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"background: #f9f9f9; border: 1px solid #e0e0e0; padding: 20px 24px; border-radius: 12px; margin-bottom: 30px;\">\n  <h2 style=\"font-size: 22px; font-weight: 600; color: #111; margin-bottom: 14px;\">🦾 Brazzary ArmX – L'arme secrète pour transformer vos bras</h2>\n  <ul style=\"list-style: none; padding: 0; margin: 0; font-size: 16px; color: #333; line-height: 1.6;\">\n    <li>✔️ Renforcez votre poigne et vos avant-bras en profondeur</li>\n    <li>✔️ Des bras plus puissants en quelques minutes par jour</li>\n    <li>✔️ Utilisable partout : à la maison, au travail ou en déplacement</li>\n    <li>✔️ Format compact, ultra résistant, pensé pour durer</li>\n    <li>✔️ Convient à tous : du débutant à l'entraînement intensif</li>\n  </ul>\n</div>"
+            "liquid": "<div style=\"padding: 0 0 20px 0; margin-bottom: 20px;\">\n  <h2 style=\"font-size: 22px; font-weight: 600; color: #111; margin-bottom: 14px;\">🦾 Brazzary ArmX – L'arme secrète pour transformer vos bras</h2>\n  <ul style=\"list-style: none; padding: 0; margin: 0; font-size: 16px; color: #333; line-height: 1.6;\">\n    <li>✔️ Renforcez votre poigne et vos avant-bras en profondeur</li>\n    <li>✔️ Des bras plus puissants en quelques minutes par jour</li>\n    <li>✔️ Utilisable partout : à la maison, au travail ou en déplacement</li>\n    <li>✔️ Format compact, ultra résistant, pensé pour durer</li>\n    <li>✔️ Convient à tous : du débutant à l'entraînement intensif</li>\n  </ul>\n</div>"
           }
         },
         "image_EYbFcQ": {
