@@ -369,6 +369,12 @@
             "liquid": "<style>\n  .promo-prix-container {\n    display: flex;\n    justify-content: flex-start;\n    align-items: center;\n    gap: 12px;\n    font-family: Arial, sans-serif;\n    font-size: 16px;\n    margin-top: 10px;\n    flex-wrap: wrap;\n  }\n\n  .prix-barre {\n    color: #222;\n    text-decoration: line-through;\n    font-size: 16px;\n    font-weight: 500;\n  }\n\n  .prix-actuel {\n    color: #8B0000; /* Rouge bordeaux */\n    font-weight: bold;\n    font-size: 18px;\n    animation: pulsePrix 1.6s infinite;\n  }\n\n  .economies {\n    color: #1e7d29; /* Vert foncé */\n    font-size: 15px;\n    font-weight: 600;\n    animation: pulseEco 1.8s infinite;\n  }\n\n  @keyframes pulsePrix {\n    0%, 100% {\n      transform: scale(1);\n      opacity: 1;\n    }\n    50% {\n      transform: scale(1.08);\n      opacity: 0.85;\n    }\n  }\n\n  @keyframes pulseEco {\n    0%, 100% {\n      transform: scale(1);\n      opacity: 1;\n    }\n    50% {\n      transform: scale(1.06);\n      opacity: 0.9;\n    }\n  }\n</style>\n\n<div class=\"promo-prix-container\">\n  <span class=\"prix-barre\">69,80 €</span>\n  <span class=\"prix-actuel\">34,90 €</span>\n  <span class=\"economies\">Vous économisez 50 % 💸</span>\n</div>"
           }
         },
+        "liquid_QNm8PT": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"background: #f9f9f9; border: 1px solid #e0e0e0; padding: 20px 24px; border-radius: 12px; margin-bottom: 30px;\">\n  <h2 style=\"font-size: 22px; font-weight: 600; color: #111; margin-bottom: 14px;\">🦾 Brazzary ArmX – L'arme secrète pour transformer vos bras</h2>\n  <ul style=\"list-style: none; padding: 0; margin: 0; font-size: 16px; color: #333; line-height: 1.6;\">\n    <li>✔️ Renforcez votre poigne et vos avant-bras en profondeur</li>\n    <li>✔️ Des bras plus puissants en quelques minutes par jour</li>\n    <li>✔️ Utilisable partout : à la maison, au travail ou en déplacement</li>\n    <li>✔️ Format compact, ultra résistant, pensé pour durer</li>\n    <li>✔️ Convient à tous : du débutant à l'entraînement intensif</li>\n  </ul>\n</div>"
+          }
+        },
         "image_EYbFcQ": {
           "type": "image",
           "settings": {
@@ -463,6 +469,7 @@
         "badges_QcRi7A",
         "price_eTwED8",
         "liquid_7WfcjX",
+        "liquid_QNm8PT",
         "image_EYbFcQ",
         "kaching_bundles_app_block_M9YViy",
         "liquid_HdVKQt",
