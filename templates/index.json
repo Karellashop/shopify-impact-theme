@@ -377,12 +377,6 @@
             "max_width": 500
           }
         },
-        "liquid_cqMfrw": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"color:red; font-weight:bold; font-size:16px;\">\n🔥 E-book offert (valeur 19,90 €) dès 2 produits achetés – aujourd’hui seulement !\n</div>"
-          }
-        },
         "kaching_bundles_app_block_M9YViy": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
@@ -392,7 +386,7 @@
         "liquid_HdVKQt": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- 🚨 Bandeau 'Stock limité' -->\n<div class=\"limited-stock-alert\">\n  ⚠️ <strong>Stock limité :</strong> <span class=\"stock-number\">4 restants</span> – Commandez maintenant !\n</div>\n\n<!-- ⏳ Compte à rebours 5 minutes -->\n<div id=\"countdown-timer\">\n  ⏳ Offre valable encore : <span id=\"countdown\">05:00</span>\n</div>\n\n<!-- 🔔 Pop-up alerte affiché une seule fois -->\n{% unless section.id == 'featured-product' %}\n  <div class=\"popup-alert hidden\" id=\"popup-alert\">\n    🚨 Stock très bas ! Dépêchez-vous avant rupture !\n  </div>\n{% endunless %}\n\n<style>\n.limited-stock-alert {\n  background: linear-gradient(90deg, #7b1e3a, #b3003c);\n  color: white;\n  padding: 12px;\n  border-radius: 8px;\n  font-size: 16px;\n  font-weight: bold;\n  text-align: center;\n  box-shadow: 0 0 12px rgba(123, 30, 58, 0.6);\n  animation: pulseBg 3s infinite;\n}\n\n.limited-stock-alert .stock-number {\n  animation: flashText 1s infinite;\n  color: #ffd700;\n  text-shadow: 0 0 10px #ffd700;\n}\n\n#countdown-timer {\n  text-align: center;\n  font-size: 15px;\n  font-weight: bold;\n  color: #b3003c;\n  margin: 10px 0 20px;\n}\n\n.popup-alert {\n  position: fixed;\n  bottom: 30px;\n  left: 50%;\n  transform: translateX(-50%);\n  background: #7b1e3a;\n  color: #fff;\n  padding: 10px 18px;\n  border-radius: 50px;\n  font-size: 14px;\n  font-weight: bold;\n  box-shadow: 0 4px 10px rgba(123, 30, 58, 0.4);\n  z-index: 9999;\n  opacity: 1;\n  transition: opacity 1s ease;\n  animation: flashText 1.5s infinite;\n}\n\n.popup-alert.hidden {\n  opacity: 0;\n  pointer-events: none;\n}\n\n@keyframes flashText {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.5; }\n}\n\n@keyframes pulseBg {\n  0%, 100% { background-position: 0% 50%; }\n  50% { background-position: 100% 50%; }\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  // ⏳ Timer\n  var timer = 300;\n  var countdownEl = document.getElementById(\"countdown\");\n  var interval = setInterval(function() {\n    var minutes = Math.floor(timer / 60), seconds = timer % 60;\n    countdownEl.textContent = \n      (minutes < 10 ? \"0\" : \"\") + minutes + \":\" + \n      (seconds < 10 ? \"0\" : \"\") + seconds;\n    if (--timer < 0) {\n      clearInterval(interval);\n      countdownEl.textContent = \"00:00\";\n    }\n  }, 1000);\n\n  // 👀 Affiche le pop-up 3s après chargement, puis le masque après 4s\n  var popup = document.getElementById(\"popup-alert\");\n  if (popup) {\n    setTimeout(function() {\n      popup.classList.remove(\"hidden\");\n      setTimeout(function() {\n        popup.classList.add(\"hidden\");\n      }, 4000); // Affiché 4 secondes\n    }, 3000); // Apparaît après 3 secondes\n  }\n});\n</script>"
+            "liquid": "<!-- 🚨 Bloc Urgence : Stock & Timer -->\n<div class=\"brazzary-urgence\">\n  <div class=\"brazzary-stock\">\n    ⚠️ Stock limité : <strong><span class=\"stock-number\">4 restants</span></strong>\n  </div>\n  <div class=\"brazzary-timer\">\n    ⏳ Offre valable encore : <span id=\"countdown\">05:00</span>\n  </div>\n</div>\n\n<style>\n.brazzary-urgence {\n  background: #fff4f4;\n  border: 1px solid #ff3d3d;\n  border-radius: 10px;\n  padding: 12px;\n  margin: 20px 0;\n  text-align: center;\n  font-family: sans-serif;\n}\n\n.brazzary-stock {\n  font-size: 15px;\n  font-weight: bold;\n  color: #b3003c;\n  margin-bottom: 6px;\n}\n\n.brazzary-stock .stock-number {\n  color: #ff9900;\n  animation: flashText 1.2s infinite;\n}\n\n.brazzary-timer {\n  font-size: 14px;\n  color: #555;\n}\n\n@keyframes flashText {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.5; }\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  var timer = 300;\n  var countdownEl = document.getElementById(\"countdown\");\n  var interval = setInterval(function() {\n    var minutes = Math.floor(timer / 60), seconds = timer % 60;\n    countdownEl.textContent = \n      (minutes < 10 ? \"0\" : \"\") + minutes + \":\" + \n      (seconds < 10 ? \"0\" : \"\") + seconds;\n    if (--timer < 0) {\n      clearInterval(interval);\n      countdownEl.textContent = \"00:00\";\n    }\n  }, 1000);\n});\n</script>"
           }
         },
         "rating_LTyYrY": {
@@ -450,11 +444,16 @@
         },
         "image_kH4336": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Copie_de_BRAZZARY_1300_x_1500_px_500_x_120_px_6.png",
             "alignment": "start",
             "max_width": 500
+          }
+        },
+        "liquid_URfnwN": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"width: 100%; background: #fff9f9; border: 2px dashed #b3003c; border-radius: 16px; padding: 24px; margin-bottom: 30px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px;\">\n  <div style=\"flex: 1 1 300px; max-width: 100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0941/4986/9913/files/Beige_Minimalist_Ebook_Mockup_Instagram_Post.png?v=1750886887\" alt=\"Ebook Brazzary offert\" style=\"width: 100%; max-width: 500px; border-radius: 12px; margin: auto; display: block;\">\n  </div>\n  <div style=\"flex: 1 1 400px; min-width: 280px;\">\n    <p style=\"font-size: 20px; font-weight: bold; color: #b3003c; margin-bottom: 14px;\">\n      🔥 BONUS EXCLUSIF – Offre valable aujourd’hui seulement\n    </p>\n    <p style=\"font-size: 17px; color: #222; line-height: 1.6;\">\n      🎁 <strong>E-book OFFERT (valeur 19,90 €)</strong> dès 2 Brazzary ArmX achetés.<br><br>\n      📘 <strong>Programme 30 jours</strong> : raffermis tes bras avec 10 min/jour, sans matériel, 100 % débutant friendly.<br>\n      🗓️ Planning jour par jour, exercices illustrés, conseils nutrition, suivi et motivation inclus.\n    </p>\n    <p style=\"font-size: 14px; color: #666; margin-top: 10px;\">\n      ✅ Disponible immédiatement après achat.<br>\n      ✅ Format PDF, lisible sur tous les téléphones.\n    </p>\n  </div>\n</div>"
           }
         }
       },
@@ -465,7 +464,6 @@
         "price_eTwED8",
         "liquid_7WfcjX",
         "image_EYbFcQ",
-        "liquid_cqMfrw",
         "kaching_bundles_app_block_M9YViy",
         "liquid_HdVKQt",
         "rating_LTyYrY",
@@ -476,7 +474,8 @@
         "image_wx3Wtp",
         "buy_buttons_hEEQHC",
         "pickup_availability_Ebt4BT",
-        "image_kH4336"
+        "image_kH4336",
+        "liquid_URfnwN"
       ],
       "name": "Featured product",
       "settings": {
@@ -512,7 +511,7 @@
           "type": "tab",
           "settings": {
             "title": "Essayez-le 15 jours gratuitement",
-            "content": "<p>Essayer le Brazzary ArmX sans risque pendant 15 jours. Si vous n’êtes pas complètement satisfait de votre Brazzary ArmX vous avez la possibilité de le retourner et vous recevrez un remboursement intégral.</p>",
+            "content": "<p>Essayer le Brazzary ArmX sans risque pendant 15 jours. Si vous n’êtes pas complètement satisfait de votre Brazzary ArmX vous avez la possibilité de le retourner et vous recevrez un remboursement intégral.<br/><br/>📌 Veuillez noter que l’eBook offert (format PDF) est un contenu numérique <strong>non remboursable</strong> dès sa réception, conformément à la législation en vigueur.<br/><br/><br/></p>",
             "page": ""
           }
         },
