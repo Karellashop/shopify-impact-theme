@@ -76,8 +76,8 @@
         "heading_xXqbic": {
           "type": "heading",
           "settings": {
-            "text": "Musclez vos bras, où que vous soyez",
-            "heading_tag": "h2"
+            "text": "Transforme tes bras en 30 jours - sans matériel, sans excuses",
+            "heading_tag": "h3"
           }
         }
       },
@@ -330,7 +330,7 @@
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
-        "title": "Nos clients en parlent le mieux",
+        "title": "Des résultats qui parlent d'eux-mêmes",
         "content": "",
         "background": "",
         "background_gradient": "",
@@ -343,13 +343,19 @@
         "liquid_PKTmBX": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"brazzary-rating\">\n  <div class=\"stars\">\n    {% for i in (1..5) %}\n      <div class=\"star\" style=\"animation-delay: {{ forloop.index0 | times: 0.15 }}s;\">\n        <svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path \n            d=\"M12 2L14.9 8.6L22 9.3L17 14.1L18.2 21.1L12 17.8L5.8 21.1L7 14.1L2 9.3L9.1 8.6L12 2Z\" \n            fill=\"#009e60\" \n            stroke=\"#007e48\" \n            stroke-width=\"1.2\" \n          />\n        </svg>\n      </div>\n    {% endfor %}\n  </div>\n  <div class=\"rating-text\">\n    Excellent <strong>4.8</strong> sur <strong>5</strong>\n  </div>\n</div>\n\n<style>\n.brazzary-rating {\n  display: flex;\n  align-items: center;\n  font-family: Arial, sans-serif;\n  font-size: 18px;\n  gap: 10px;\n}\n\n.stars {\n  display: flex;\n}\n\n.star {\n  margin-right: 4px;\n  opacity: 0;\n  transform: scale(0.5);\n  animation: popStar 0.6s ease-out forwards;\n}\n\n@keyframes popStar {\n  0% {\n    transform: scale(0.5);\n    opacity: 0;\n  }\n  50% {\n    transform: scale(1.4);\n    opacity: 1;\n  }\n  100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n}\n\n.rating-text {\n  color: #000;\n}\n</style>"
+            "liquid": "<div class=\"brazzary-rating\">\n  <div class=\"stars\">\n    {% for i in (1..5) %}\n      <div class=\"star\" style=\"animation-delay: {{ forloop.index0 | times: 0.1 }}s;\">\n        <svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\" xmlns=\"http://www.w3.org/2000/svg\">\n          {% if forloop.index <= 4 %}\n            <!-- Pleine -->\n            <path d=\"M12 2L14.9 8.6L22 9.3L17 14.1L18.2 21.1L12 17.8L5.8 21.1L7 14.1L2 9.3L9.1 8.6L12 2Z\"\n              fill=\"#009e60\" stroke=\"#007e48\" stroke-width=\"1.2\"/>\n          {% elsif forloop.index == 5 %}\n            <!-- Partielle 60% -->\n            <defs>\n              <linearGradient id=\"starPartialGradient\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n                <stop offset=\"60%\" stop-color=\"#009e60\"/>\n                <stop offset=\"60%\" stop-color=\"#d0d0d0\"/>\n              </linearGradient>\n            </defs>\n            <path d=\"M12 2L14.9 8.6L22 9.3L17 14.1L18.2 21.1L12 17.8L5.8 21.1L7 14.1L2 9.3L9.1 8.6L12 2Z\"\n              fill=\"url(#starPartialGradient)\" stroke=\"#999\" stroke-width=\"1.2\"/>\n          {% endif %}\n        </svg>\n      </div>\n    {% endfor %}\n  </div>\n  <div class=\"rating-text\">\n    Excellent <strong>4.8</strong> sur <strong>5</strong>\n  </div>\n</div>\n\n<style>\n.brazzary-rating {\n  display: flex;\n  align-items: center;\n  font-family: Arial, sans-serif;\n  font-size: 18px;\n  gap: 12px;\n}\n\n.stars {\n  display: flex;\n}\n\n.star {\n  margin-right: 4px;\n  opacity: 0;\n  transform: scale(0.5);\n  animation: popStar 0.5s ease-out forwards;\n}\n\n@keyframes popStar {\n  0% {\n    transform: scale(0.5);\n    opacity: 0;\n  }\n  50% {\n    transform: scale(1.4);\n    opacity: 1;\n  }\n  100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n}\n\n.rating-text {\n  color: #000;\n}\n</style>"
           }
         },
         "title_3xi67W": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
+          }
+        },
+        "liquid_cqMfrw": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"color:red; font-weight:bold; font-size:16px;\">\n🔥 E-book offert (valeur 19,90 €) dès 2 produits achetés – aujourd’hui seulement !\n</div>"
           }
         },
         "badges_QcRi7A": {
@@ -455,6 +461,7 @@
       "block_order": [
         "liquid_PKTmBX",
         "title_3xi67W",
+        "liquid_cqMfrw",
         "badges_QcRi7A",
         "price_eTwED8",
         "liquid_7WfcjX",
@@ -567,14 +574,14 @@
           "type": "item",
           "settings": {
             "title": "3. Qu'est ce qui le rend différent des autres outils de musculation ?",
-            "content": "<p>Contrairement aux produits classiques, Brazzary offre une résistance constante qui cible précisément les avant-bras, poignets et biceps.<br/>Résultats plus rapides, entraînement silencieux et utilisable partout</p>"
+            "content": "<p>Contrairement aux produits classiques, Brazzary ArmX offre une résistance constante qui cible précisément les avant-bras, poignets et biceps.<br/>Résultats plus rapides, entraînement silencieux et utilisable partout</p>"
           }
         },
         "item_wwHXUc": {
           "type": "item",
           "settings": {
             "title": "4. Est-ce que Brazzary aide à développer les bras ?",
-            "content": "<p>Oui ! Brazzary est conçu pour stimuler la croissance musculaire et améliorer la vascularisation. Avec une utilisation régulière, vous verrez vos bras devenir plus volumineux et dessinés.</p>"
+            "content": "<p>Oui ! Brazzary ArmX est conçu pour stimuler la croissance musculaire et améliorer la vascularisation. Avec une utilisation régulière, vous verrez vos bras devenir plus volumineux et dessinés.</p>"
           }
         },
         "item_ibxgMX": {
@@ -588,7 +595,14 @@
           "type": "item",
           "settings": {
             "title": "6. Quelle est sa durabilité ?",
-            "content": "<p>Brazzary est fabriqué à partir de matériaux résistants à l’usure. Il supporte les entraînements intensifs répétés. Que vous l’utilisiez quotidiennement ou occasionnellement, il est fait pour durer plusieurs années.</p>"
+            "content": "<p>Brazzary ArmX est fabriqué à partir de matériaux résistants à l’usure. Il supporte les entraînements intensifs répétés. Que vous l’utilisiez quotidiennement ou occasionnellement, il est fait pour durer plusieurs années.</p>"
+          }
+        },
+        "item_tRn9zR": {
+          "type": "item",
+          "settings": {
+            "title": "7. Le eBook est-il vraiment offert ?",
+            "content": "<p>Oui, le eBook “ARMX Challenge” est offert dès 2 produits achetés. D’une valeur de 19,90 €, il est disponible nulle part ailleurs. Profite-en !<br/></p><p></p>"
           }
         }
       },
@@ -598,7 +612,8 @@
         "item_NLDUBf",
         "item_wwHXUc",
         "item_ibxgMX",
-        "item_6yi9py"
+        "item_6yi9py",
+        "item_tRn9zR"
       ],
       "name": "FAQ",
       "settings": {
