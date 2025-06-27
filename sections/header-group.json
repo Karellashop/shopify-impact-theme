@@ -54,8 +54,8 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#8b0000",
-        "background_gradient": "",
+        "background": "#3e000f",
+        "background_gradient": "linear-gradient(127deg, rgba(0, 0, 0, 1) 11%, rgba(122, 0, 31, 1) 11.741%, rgba(62, 0, 15, 1) 81%)",
         "text_color": "#ffffff"
       }
     },
