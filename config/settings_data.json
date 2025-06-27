@@ -85,6 +85,11 @@
         "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
         "disabled": false,
         "settings": {}
+      },
+      "10967200920248657493": {
+        "type": "shopify://apps/widebundle/blocks/app-embed/392bb313-2491-436e-a58e-9bb68ebd8f47",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
