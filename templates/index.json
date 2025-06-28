@@ -504,6 +504,19 @@
         "input_text_color": ""
       }
     },
+    "custom_html_LUW4Qm": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<widgetic id=\"68600847ecb2a14d188b4569\" resize=\"fill-width\" width=\"799\" height=\"583\" autoscale=\"on\" adaptive=\"414\"></widgetic><script async src=\"https://widgetic.com/sdk/sdk.js\"></script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "tabs_yX9rGC": {
       "type": "tabs",
       "blocks": {
@@ -743,6 +756,7 @@
     "video_htHmzd",
     "multi_column_cHTnjf",
     "featured_product_yCqJ6B",
+    "custom_html_LUW4Qm",
     "tabs_yX9rGC",
     "faq_HV6a8N",
     "contact_9qmMCA",
