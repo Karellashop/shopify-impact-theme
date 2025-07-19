@@ -63,11 +63,55 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "rich_text_DgLkRf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UdMXL6": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir Glissya ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_UdMXL6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_qxYbmG": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/IMAGE_7_P1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_overlay_rNjr3N",
-    "custom_liquid_nWqFdU"
+    "custom_liquid_nWqFdU",
+    "rich_text_DgLkRf",
+    "image_with_text_overlay_qxYbmG"
   ]
 }
