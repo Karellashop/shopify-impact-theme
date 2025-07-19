@@ -1,1 +1,58 @@
-{"sections":{"main":{"type":"main-not-found","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-not-found",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_overlay_rNjr3N": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_AJWxn3": {
+          "type": "heading",
+          "settings": {
+            "text": "Poils incarnés, rougeurs, irritations ? Éliminez-les pour de bon.",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_dKbxJa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Le seul rasoir qui transforme le rasage en moment de plaisir.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AJWxn3",
+        "richtext_dKbxJa"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Ajouter_un_titre_3.png",
+        "mobile_image": "shopify://shop_images/Ajouter_un_titre_5.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_rNjr3N"
+  ]
+}
