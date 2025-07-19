@@ -138,18 +138,10 @@
         "play_FHezMw": {
           "type": "play",
           "settings": {}
-        },
-        "heading_Gq4bDD": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
-          }
         }
       },
       "block_order": [
-        "play_FHezMw",
-        "heading_Gq4bDD"
+        "play_FHezMw"
       ],
       "name": "Video",
       "settings": {
