@@ -54,8 +54,8 @@
         "text_size": "text-lg",
         "navigation_mode": "scrolling",
         "scrolling_speed": 16,
-        "background": "#3e000f",
-        "background_gradient": "linear-gradient(127deg, rgba(0, 0, 0, 1) 11%, rgba(122, 0, 31, 1) 11.741%, rgba(62, 0, 15, 1) 81%)",
+        "background": "#ffb8b1",
+        "background_gradient": "",
         "text_color": "#ffffff"
       }
     },
@@ -64,7 +64,6 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/BRAZZARY_4.png",
         "logo_max_width": 200,
         "logo_mobile_max_width": 170,
         "menu": "main-menu",
