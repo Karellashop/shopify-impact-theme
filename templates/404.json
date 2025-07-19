@@ -131,6 +131,38 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "video_XbMgLD": {
+      "type": "video",
+      "blocks": {
+        "play_fYjdMz": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_NJeikE": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_fYjdMz",
+        "heading_NJeikE"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Copie de Minimalist Before After Salon & Makeup Instagram Post (Présentation) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -139,6 +171,7 @@
     "custom_liquid_nWqFdU",
     "rich_text_DgLkRf",
     "image_with_text_overlay_qxYbmG",
-    "rich_text_7Tzgth"
+    "rich_text_7Tzgth",
+    "video_XbMgLD"
   ]
 }
