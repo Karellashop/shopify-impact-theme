@@ -260,6 +260,14 @@
             "show_taxes_notice": false
           }
         },
+        "image_yzKkM7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_20_juil._2025_13_30_24.png",
+            "alignment": "center",
+            "max_width": 400
+          }
+        },
         "rating_6Bybpj": {
           "type": "rating",
           "settings": {
@@ -317,6 +325,7 @@
         "title_7aXB8E",
         "badges_UJnKee",
         "price_mY7teD",
+        "image_yzKkM7",
         "rating_6Bybpj",
         "separator_4LaHHB",
         "description_nENWAr",
