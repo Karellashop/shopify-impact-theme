@@ -378,7 +378,7 @@
         "tab_my4Rty": {
           "type": "tab",
           "settings": {
-            "title": "Caractéristiques",
+            "title": "✨ Caractéristiques de Glissya®",
             "content": "<ul><li>✅ Élimine les poils <strong>dès la racine</strong>, sans douleur ni rougeurs</li><li>✅ <strong>Prévient les poils incarnés</strong> et calme les irritations même sur peaux sensibles.</li><li>✅ <strong>Lisse et adoucit la peau</strong> grâce au gant exfoliant Glissya inclus.</li><li>✅ Résultat professionnel <strong>en moins de 5 minutes</strong>, directement depuis chez vous.</li><li>✅ Adapté à toutes les zones : jambes, aisselles, maillot, bras et plus encore.<br/></li></ul><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/></p>",
             "page": ""
           }
@@ -394,8 +394,16 @@
         "tab_T7Lypx": {
           "type": "tab",
           "settings": {
-            "title": "Livraison gratuite à domicile",
+            "title": "📦 Livraison gratuite à domicile",
             "content": "<p><strong>📦 Livraison gratuite à domicile</strong></p><p>La livraison est 100 % gratuite, partout en France.<br/><br/>En raison d’une forte demande, le délai de livraison est estimé entre <strong>5 et 8 jours ouvrés</strong>.</p><p></p>",
+            "page": ""
+          }
+        },
+        "tab_yWikkp": {
+          "type": "tab",
+          "settings": {
+            "title": "💬 Service client 7J/7",
+            "content": "<p>Notre équipe est à votre écoute <strong>7 jours sur 7</strong> pour répondre à toutes vos questions.</p><p>📩 Vous pouvez nous contacter par email à tout moment.<br/><br/>📞 Par téléphone, nous sommes disponibles :</p><ul><li><br/>9h à 12h et <strong>14h à 18h</strong><br/></li><li><br/>10h à 12h<br/></li></ul><p><strong>N’hésitez pas à nous écrire ou nous appeler, nous sommes là pour vous.</strong></p>",
             "page": ""
           }
         }
@@ -403,7 +411,8 @@
       "block_order": [
         "tab_my4Rty",
         "tab_BGxqwt",
-        "tab_T7Lypx"
+        "tab_T7Lypx",
+        "tab_yWikkp"
       ],
       "name": "Tabs",
       "settings": {
