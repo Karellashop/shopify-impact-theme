@@ -427,6 +427,107 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "faq_acMCwJ": {
+      "type": "faq",
+      "blocks": {
+        "item_izwEVw": {
+          "type": "item",
+          "settings": {
+            "title": "🌸 Glissya convient-elle aux peaux sensibles ?",
+            "content": "<p>Oui, Glissya® a été spécialement conçue pour respecter <strong>les peaux les plus délicates</strong>, même sur des zones sensibles comme le maillot ou les aisselles.<br/><br/>Grâce à sa <strong>technologie douce à double tête</strong>, elle offre une expérience sans irritation, ni rougeur.</p>"
+          }
+        },
+        "item_AP4XEJ": {
+          "type": "item",
+          "settings": {
+            "title": "😌 Est-ce douloureux à utiliser ?",
+            "content": "<p>Pas du tout. Glissya® coupe les poils <strong>sans tirer, gratter ni blesser</strong>.<br/><br/>Le résultat ? Une peau <strong>douce et nette</strong>, sans aucune sensation d’inconfort ou de coupure.</p>"
+          }
+        },
+        "item_tpQzg3": {
+          "type": "item",
+          "settings": {
+            "title": "🧴 Convient-elle à toutes les zones du corps ?",
+            "content": "<p>Oui, Glissya® est <strong>polyvalente</strong>. Elle est parfaite pour les jambes, les aisselles, le maillot, les bras et même le visage.<br/><br/>Un seul appareil pour tout votre corps !</p>"
+          }
+        },
+        "item_Anxib3": {
+          "type": "item",
+          "settings": {
+            "title": "🧼 Y a-t-il un risque de coupures ou de poils incarnés ?",
+            "content": "<p>Aucun. Sa tête flottante innovante coupe les poils <strong>sans contact direct agressif</strong> avec la peau, réduisant les risques de coupures et de poils incarnés.</p>"
+          }
+        },
+        "item_kjDDkk": {
+          "type": "item",
+          "settings": {
+            "title": "🚿 Puis-je utiliser Glissya sous la douche ?",
+            "content": "<p>Oui ! Glissya® est <strong>100 % étanche</strong>.<br/><br/>Elle est parfaite pour une utilisation rapide dans la douche ou le bain, pour intégrer facilement le soin à votre routine.</p>"
+          }
+        },
+        "item_cDiNgn": {
+          "type": "item",
+          "settings": {
+            "title": "🧽 Comment nettoyer Glissya après utilisation ?",
+            "content": "<p>Il suffit de rincer les têtes sous l’eau après chaque utilisation.<br/><br/>Un <strong>petit pinceau est inclus</strong> pour un nettoyage encore plus précis.</p>"
+          }
+        },
+        "item_EUiiEd": {
+          "type": "item",
+          "settings": {
+            "title": "🧳 Puis-je emporter Glissya en voyage ?",
+            "content": "<p>Absolument. Grâce à son format compact, Glissya® <strong>se glisse dans n’importe quelle trousse de toilette</strong>.<br/><br/>Léger, discret, et prêt à vous suivre partout !</p>"
+          }
+        },
+        "item_JrgGgX": {
+          "type": "item",
+          "settings": {
+            "title": "🔋 Combien de temps faut-il pour la recharger ?",
+            "content": "<p>La recharge complète prend entre <strong>30 et 45 minutes</strong>, grâce à sa technologie de recharge rapide USB.</p>"
+          }
+        },
+        "item_rGGy8h": {
+          "type": "item",
+          "settings": {
+            "title": "🙁 Et si je ne suis pas satisfaite ?",
+            "content": "<p>Aucune inquiétude.<br/><br/>Vous bénéficiez d’une <strong>garantie \"satisfaite ou remboursée 30 jours\"</strong>.<br/><br/>Si le produit ne vous convient pas, il vous suffit de contacter notre service client pour un <strong>remboursement simple et rapide</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_izwEVw",
+        "item_AP4XEJ",
+        "item_tpQzg3",
+        "item_Anxib3",
+        "item_kjDDkk",
+        "item_cDiNgn",
+        "item_EUiiEd",
+        "item_JrgGgX",
+        "item_rGGy8h"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Les questions les plus fréquentes",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#ffc8c3",
+        "background_gradient": "",
+        "text_color": "#1a1a1a",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -439,6 +540,7 @@
     "video_XbMgLD",
     "multi_column_YjMeUh",
     "featured_product_kbHAbw",
-    "tabs_qWnx8H"
+    "tabs_qWnx8H",
+    "faq_acMCwJ"
   ]
 }
