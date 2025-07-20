@@ -244,10 +244,6 @@
             "liquid": "<style>\n.trustpilot-widget {\n  font-family: 'Arial', sans-serif;\n  text-align: center;\n  padding: 10px 0;\n  color: #111;\n}\n\n.trustpilot-top {\n  font-size: 15px;\n  font-weight: 600;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 6px;\n  flex-wrap: wrap;\n}\n\n.trustpilot-top strong {\n  font-size: 16px;\n}\n\n.emoji-stars {\n  display: flex;\n  gap: 3px;\n}\n\n.emoji-stars span,\n.green-star {\n  color: #00B67A; /* Vert Trustpilot */\n  font-size: 18px;\n  font-style: normal;\n}\n\n.trustpilot-sub {\n  font-size: 13px;\n  color: #555;\n  margin-top: 4px;\n}\n</style>\n\n<div class=\"trustpilot-widget\">\n  <div class=\"trustpilot-top\">\n    <span>Excellent <strong>4.8 / 5</strong></span>\n    <div class=\"emoji-stars\">\n      <span>★</span>\n      <span>★</span>\n      <span>★</span>\n      <span>★</span>\n      <span>★</span>\n    </div>\n  </div>\n  <div class=\"trustpilot-sub\">\n    basé sur <strong>+1800 avis</strong> <span class=\"green-star\">★</span> Trustpilot\n  </div>\n</div>"
           }
         },
-        "vendor_HmERz3": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title_7aXB8E": {
           "type": "title",
           "settings": {
@@ -305,6 +301,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_f4w9dP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- ✅ 1. Bannière principale fixe avec timer -->\n<div class=\"glissya-urgence-pro\">\n  <p class=\"stock-text\">⚠️ Stock très limité — Commandez avant la fin de l’offre !</p>\n  <p class=\"timer-text\">⏳ Il reste : <span id=\"countdown\">05:00</span></p>\n</div>\n\n<!-- ✅ 2. Mini alerte affichée en haut pendant 4s -->\n<div id=\"glissya-alert-onload\" class=\"glissya-alert-onload\">\n  ⚠️ Rupture de stock imminente — Passe ta commande maintenant !\n</div>\n\n<!-- ✅ 3. Alerte scroll en bas de page -->\n<div id=\"glissya-alert-scroll\" class=\"glissya-alert-scroll\">\n  ⚠️ Rupture de stock imminente — Passe ta commande maintenant !\n</div>\n\n<style>\n/* ✅ Bannière principale Glissya */\n.glissya-urgence-pro {\n  position: relative;\n  overflow: hidden;\n  background: radial-gradient(circle, #FBCBCB 0%, #f89daf 100%);\n  color: #000;\n  padding: 14px 12px;\n  text-align: center;\n  font-family: 'Segoe UI', sans-serif;\n  border-radius: 6px;\n  margin: 20px 0;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);\n}\n\n/* 💡 Animation flash */\n.glissya-urgence-pro::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: -75%;\n  width: 50%;\n  height: 100%;\n  background: linear-gradient(\n    120deg,\n    rgba(255, 255, 255, 0) 0%,\n    rgba(255, 255, 255, 0.25) 50%,\n    rgba(255, 255, 255, 0) 100%\n  );\n  transform: skewX(-20deg);\n  animation: flashLight 3s ease-in-out infinite;\n}\n\n@keyframes flashLight {\n  0% { left: -75%; }\n  50% { left: 100%; }\n  100% { left: -75%; }\n}\n\n.stock-text {\n  font-size: 17px;\n  font-weight: 700;\n  margin-bottom: 6px;\n}\n\n.timer-text {\n  font-size: 16px;\n  font-weight: 500;\n  margin: 0;\n}\n\n#countdown {\n  font-weight: 700;\n  color: #c20062;\n  animation: flashText 1.5s infinite;\n}\n\n@keyframes flashText {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.6; }\n}\n\n/* ✅ Mini alerte affichée au chargement EN HAUT */\n.glissya-alert-onload {\n  position: fixed;\n  top: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  background: radial-gradient(circle, #FBCBCB 0%, #f89daf 100%);\n  color: #000;\n  padding: 10px 16px;\n  font-size: 14px;\n  font-weight: 600;\n  text-align: center;\n  border-radius: 0 0 8px 8px;\n  max-width: 100%;\n  z-index: 9999;\n  box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 0.5s ease;\n  backdrop-filter: blur(4px);\n}\n\n/* ✅ Alerte scroll en bas */\n.glissya-alert-scroll {\n  position: fixed;\n  bottom: 20px;\n  left: 50%;\n  transform: translateX(-50%);\n  background: radial-gradient(circle, #FBCBCB 0%, #f89daf 100%);\n  color: #000;\n  padding: 8px 14px;\n  font-size: 14px;\n  font-weight: 600;\n  text-align: center;\n  border-radius: 8px;\n  max-width: 80%;\n  z-index: 9999;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.1);\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 0.5s ease;\n  backdrop-filter: blur(3px);\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  // ✅ Timer principal\n  let timer = 300;\n  const countdownEl = document.getElementById(\"countdown\");\n  const interval = setInterval(() => {\n    let min = Math.floor(timer / 60), sec = timer % 60;\n    countdownEl.textContent =\n      (min < 10 ? \"0\" : \"\") + min + \":\" +\n      (sec < 10 ? \"0\" : \"\") + sec;\n    if (--timer < 0) {\n      clearInterval(interval);\n      countdownEl.textContent = \"00:00\";\n    }\n  }, 1000);\n\n  // ✅ Alerte au chargement (4s)\n  const alertOnLoad = document.getElementById(\"glissya-alert-onload\");\n  alertOnLoad.style.opacity = \"1\";\n  alertOnLoad.style.pointerEvents = \"auto\";\n  setTimeout(() => {\n    alertOnLoad.style.opacity = \"0\";\n    alertOnLoad.style.pointerEvents = \"none\";\n  }, 4000);\n\n  // ✅ Alerte au scroll\n  const alertScroll = document.getElementById(\"glissya-alert-scroll\");\n  let shown = false;\n  window.addEventListener(\"scroll\", () => {\n    if (!shown && window.scrollY > 50) {\n      shown = true;\n      alertScroll.style.opacity = \"1\";\n      alertScroll.style.pointerEvents = \"auto\";\n      setTimeout(() => {\n        alertScroll.style.opacity = \"0\";\n        alertScroll.style.pointerEvents = \"none\";\n      }, 4000);\n    }\n  });\n});\n</script>"
+          }
+        },
         "pickup_availability_iKiF9J": {
           "type": "pickup_availability",
           "settings": {}
@@ -312,7 +314,6 @@
       },
       "block_order": [
         "liquid_hKQLb9",
-        "vendor_HmERz3",
         "title_7aXB8E",
         "badges_UJnKee",
         "price_mY7teD",
@@ -322,6 +323,7 @@
         "variant_picker_TECJpM",
         "quantity_selector_cbwwBW",
         "buy_buttons_nbUM7P",
+        "liquid_f4w9dP",
         "pickup_availability_iKiF9J"
       ],
       "name": "Featured product",
