@@ -371,6 +371,53 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "tabs_qWnx8H": {
+      "type": "tabs",
+      "blocks": {
+        "tab_my4Rty": {
+          "type": "tab",
+          "settings": {
+            "title": "Caractéristiques",
+            "content": "<ul><li>✅ Élimine les poils <strong>dès la racine</strong>, sans douleur ni rougeurs</li><li>✅ <strong>Prévient les poils incarnés</strong> et calme les irritations même sur peaux sensibles.</li><li>✅ <strong>Lisse et adoucit la peau</strong> grâce au gant exfoliant Glissya inclus.</li><li>✅ Résultat professionnel <strong>en moins de 5 minutes</strong>, directement depuis chez vous.</li><li>✅ Adapté à toutes les zones : jambes, aisselles, maillot, bras et plus encore.<br/></li></ul><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/></p>",
+            "page": ""
+          }
+        },
+        "tab_BGxqwt": {
+          "type": "tab",
+          "settings": {
+            "title": "Essayez-le 30 jours gratuitement",
+            "content": "<p><strong>Essayez le Rasoir Glissya® sans aucun risque pendant 30 jours.</strong><br/><br/>Si vous n’êtes pas entièrement satisfaite, vous pouvez simplement nous le retourner et vous recevrez un <strong>remboursement intégral.</strong></p>",
+            "page": ""
+          }
+        },
+        "tab_T7Lypx": {
+          "type": "tab",
+          "settings": {
+            "title": "Livraison gratuite à domicile",
+            "content": "<p><strong>📦 Livraison gratuite à domicile</strong></p><p>La livraison est 100 % gratuite, partout en France.<br/><br/>En raison d’une forte demande, le délai de livraison est estimé entre <strong>5 et 8 jours ouvrés</strong>.</p><p></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_my4Rty",
+        "tab_BGxqwt",
+        "tab_T7Lypx"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
@@ -382,6 +429,7 @@
     "rich_text_7Tzgth",
     "video_XbMgLD",
     "multi_column_YjMeUh",
-    "featured_product_kbHAbw"
+    "featured_product_kbHAbw",
+    "tabs_qWnx8H"
   ]
 }
